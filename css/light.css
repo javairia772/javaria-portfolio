@@ -1,0 +1,20 @@
+/* ── LIGHT THEME ── */
+[data-theme="light"] {
+  --bg:           #f4f1eb;
+  --bg-card:      #faf8f4;
+  --bg-card-hover:#ffffff;
+  --bg-code:      #eeeae2;
+  --border:       rgba(0,0,0,0.08);
+  --border-2:     rgba(0,0,0,0.14);
+  --text:         #1a1916;
+  --text-2:       #6b6860;
+  --text-3:       #a8a49c;
+  --accent:       #1a1916;
+  --accent-muted: rgba(26,25,22,0.07);
+  --accent-glow:  rgba(26,25,22,0.03);
+  --tag-bg:       rgba(0,0,0,0.04);
+  --tag-border:   rgba(0,0,0,0.09);
+  --nav-bg:       rgba(244,241,235,0.90);
+  --shadow:       0 0 0 1px rgba(0,0,0,0.06);
+  --mono-color:   #5a6e3a;
+}

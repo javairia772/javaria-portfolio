@@ -1,0 +1,20 @@
+/* ── DARK THEME (default) ── */
+[data-theme="dark"] {
+  --bg:           #0a0a0c;
+  --bg-card:      #111114;
+  --bg-card-hover:#161619;
+  --bg-code:      #0f0f12;
+  --border:       rgba(255,255,255,0.06);
+  --border-2:     rgba(255,255,255,0.10);
+  --text:         #e8e4dc;
+  --text-2:       #7c7975;
+  --text-3:       #46443f;
+  --accent:       #b8ff57;
+  --accent-muted: rgba(184,255,87,0.10);
+  --accent-glow:  rgba(184,255,87,0.05);
+  --tag-bg:       rgba(255,255,255,0.04);
+  --tag-border:   rgba(255,255,255,0.08);
+  --nav-bg:       rgba(10,10,12,0.88);
+  --shadow:       0 0 0 1px rgba(255,255,255,0.04);
+  --mono-color:   #6a9f4a;
+}
