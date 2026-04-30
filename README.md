@@ -3,7 +3,7 @@
 AI Engineer & Full-Stack Developer building intelligent systems and real-world applications.
 
 ## 🔗 Live Website
-[https://your-portfolio.vercel.app](https://javaria-portfolio.vercel.app/)
+[https://javariasaleem.com](https://javaria-portfolio.vercel.app/)
 
 ## 🧠 About
 This portfolio showcases my work at the intersection of machine learning and software engineering.  
