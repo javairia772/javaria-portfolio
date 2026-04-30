@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Javaria — AI Engineer & Full Stack Developer. Building intelligent systems with Python, NLP, and web technologies.">
+  <title>Javaria — AI Engineer & Developer</title>
+
+  <!-- Zero-flash theme: runs before paint -->
+  <script src="js/theme.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Themes & Styles -->
+  <link rel="stylesheet" href="css/dark.css">
+  <link rel="stylesheet" href="css/light.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════ -->
+<nav id="navbar">
+  <a class="nav-logo" href="#hero">Javaria Saleem<span>_</span></a>
+
+  <div class="nav-center">
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#certifications">certificatons</a>
+    <a href="#contact">contact</a>
+  </div>
+
+  <div class="nav-right">
+    <button id="theme-toggle" aria-label="Toggle theme">
+      <span class="toggle-icon" id="toggle-icon">☀</span>
+      <span id="toggle-label">Light</span>
+    </button>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-available reveal">
+    <span class="hero-dot"></span>
+    open_to_opportunities
+  </div>
+
+  <h1 class="hero-name reveal" data-delay="80">
+    Javaria Saleem
+  </h1>
+
+  <div class="hero-role reveal" data-delay="160">
+    role: AI_Engineer + Full_Stack_Developer
+  </div>
+
+  <p class="hero-bio reveal" data-delay="220">
+    Building AI-driven and full-stack solutions with hands-on project experience.
+  </p>
+
+  <div class="hero-actions reveal" data-delay="300">
+    <a class="btn-primary" href="#projects">view_projects →</a>
+    <a class="btn-ghost"   href="#contact">get_in_touch</a>
+    <a class="btn-ghost"   href="https://github.com/javairia772" target="_blank">github ↗</a>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════
+     ABOUT
+══════════════════════════════════════ -->
+<section id="about">
+  <div class="section">
+    <div class="about-grid">
+
+      <!-- Left: Photo -->
+      <div class="photo-col reveal">
+        <div class="photo-wrap">
+          <!--
+            TO ADD YOUR PHOTO LATER:
+            1. Put your image in assets/photo.jpg
+            2. Replace the .photo-placeholder div with:
+               <img src="assets/photo.jpg" alt="Javaria">
+          -->
+          <!-- <div class="photo-placeholder">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+              <circle cx="28" cy="21" r="11" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M7 49c0-11.598 9.402-21 21-21s21 9.402 21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            
+          </div> -->
+          <img src="assets/me.jpeg" alt="Javaria">
+          <div class="photo-tag">Javaria Saleem</div>
+        </div>
+      </div>
+
+      <!-- Right: Text -->
+      <div class="about-text">
+        <div class="section-header reveal">
+          <p class="section-label">about</p>
+          <h2 class="section-title">Who I <span class="serif">am</span></h2>
+        </div>
+
+        <p class="bio reveal" data-delay="100">
+          I'm <strong>Javaria Saleem</strong>, an AI engineer and developer working at the intersection of machine learning and software engineering.
+          I build intelligent systems focused on <strong>real-world applications</strong> — from transformer-based NLP models like a sarcasm detector to system-level projects like a custom version control system and full-stack web applications.
+        </p>
+
+        <div class="stats-row reveal" data-delay="150">
+          <div class="stat">
+            <div class="stat-n">6+</div>
+            <div class="stat-l">projects_built</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n">3+</div>
+            <div class="stat-l">ai_ml_systems</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n">1</div>
+            <div class="stat-l">live_client_site</div>
+          </div>
+        </div>
+
+        <ul class="trait-list reveal" data-delay="200">
+          <li class="trait-item">
+            <div class="trait-icon">🤖</div>
+            <div>
+              <div class="trait-name">AI & Machine Learning</div>
+              <div class="trait-desc">transformers · NLP · fine-tuning · FastAPI</div>
+            </div>
+          </li>
+          <li class="trait-item">
+            <div class="trait-icon">🌐</div>
+            <div>
+              <div class="trait-name">Full Stack Web Dev</div>
+              <div class="trait-desc">frontend · backend · deployment · WordPress</div>
+            </div>
+          </li>
+          <li class="trait-item">
+            <div class="trait-icon">🛠️</div>
+            <div>
+              <div class="trait-name">Systems & Tooling</div>
+              <div class="trait-desc">version control · CLI tools · data pipelines</div>
+            </div>
+          </li>
+          <li class="trait-item">
+            <div class="trait-icon">📊</div>
+            <div>
+              <div class="trait-name">Data Intelligence</div>
+              <div class="trait-desc">web scraping · analysis · market intelligence</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════
+     SKILLS
+══════════════════════════════════════ -->
+<section id="skills">
+  <div class="section">
+    <div class="skills-layout">
+
+      <div class="skills-intro">
+        <p class="section-label reveal">skills</p>
+        <h2 class="section-title reveal" data-delay="60">Tech I work <span class="serif">with</span></h2>
+        <p class="section-sub reveal" data-delay="120">
+          Organized by practical use in 
+          real-world projects.
+        </p>
+      </div>
+
+      <div class="skill-groups reveal" data-delay="100">
+        <div>
+          <p class="skill-group-name">// AI & Machine Learning</p>
+          <div class="skill-pills">
+            <div class="pill"><span class="pill-dot"></span>Python</div>
+            <div class="pill"><span class="pill-dot"></span>HuggingFace Transformers</div>
+            <div class="pill"><span class="pill-dot"></span>DistilBERT / BERT</div>
+            <div class="pill"><span class="pill-dot"></span>FastAPI</div>
+            <div class="pill"><span class="pill-dot"></span>Gradio</div>
+            <div class="pill"><span class="pill-dot"></span>scikit-learn</div>
+            <div class="pill"><span class="pill-dot"></span>NLP</div>
+            <div class="pill"><span class="pill-dot"></span>Pandas</div>
+          </div>
+        </div>
+        <div>
+          <p class="skill-group-name">// Web Development</p>
+          <div class="skill-pills">
+            <div class="pill"><span class="pill-dot"></span>HTML / CSS</div>
+            <div class="pill"><span class="pill-dot"></span>JavaScript</div>
+            <div class="pill"><span class="pill-dot"></span>WordPress</div>
+            <div class="pill"><span class="pill-dot"></span>REST APIs</div>
+            <div class="pill"><span class="pill-dot"></span>Responsive Design</div>
+          </div>
+        </div>
+        <div>
+          <p class="skill-group-name">// Tools & Systems</p>
+          <div class="skill-pills">
+            <div class="pill"><span class="pill-dot"></span>Git / GitHub</div>
+            <div class="pill"><span class="pill-dot"></span>Custom VCS</div>
+            <div class="pill"><span class="pill-dot"></span>Web Scraping</div>
+            <div class="pill"><span class="pill-dot"></span>Linux / CLI</div>
+            <div class="pill"><span class="pill-dot"></span>Data Analysis</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════ -->
+<section id="projects">
+  <div class="section">
+
+    <div class="section-header">
+      <p class="section-label reveal">projects</p>
+      <h2 class="section-title reveal" data-delay="60">Selected <span class="serif">work</span></h2>
+      <p class="section-sub reveal" data-delay="120">
+        Things I've built — each one solving a specific problem.
+      </p>
+    </div>
+
+    <div class="project-filters reveal" data-delay="160">
+      <button class="filter-btn active" data-filter="all">all</button>
+      <button class="filter-btn" data-filter="ai">ai & ml</button>
+      <button class="filter-btn" data-filter="web">web</button>
+      <button class="filter-btn" data-filter="tools">dev tools</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- SarcasmSense -->
+      <div class="project-card reveal" data-cat="ai" data-delay="0">
+        <div class="card-top">
+          <div class="card-icon">🧠</div>
+          <a class="card-link" href="https://github.com/javairia772/SarcasmSense" target="_blank">GitHub ↗</a>
+        </div>
+        <div class="card-cat">ai & ml · nlp</div>
+        <div class="card-name">SarcasmSense</div>
+        <div class="card-problem">
+          <span class="label">problem</span>
+          Detecting sarcasm in text is hard for machines — tone doesn't come through literally.
+          Fine-tuned DistilBERT on sarcasm datasets, served through a FastAPI backend with an interactive Gradio demo.
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Python</span>
+          <span class="card-tag">DistilBERT</span>
+          <span class="card-tag">FastAPI</span>
+          <span class="card-tag">Gradio</span>
+          <span class="card-tag">HuggingFace</span>
+        </div>
+      </div>
+
+      <!-- Job Market Intelligence -->
+      <div class="project-card reveal" data-cat="ai" data-delay="80">
+        <div class="card-top">
+          <div class="card-icon">📈</div>
+          <a class="card-link" href="https://github.com/javairia772/Job-Market-Intelligence-System" target="_blank">GitHub ↗</a>
+        </div>
+        <div class="card-cat">ai & ml · data</div>
+        <div class="card-name">Job Market Intelligence System</div>
+        <div class="card-problem">
+          <span class="label">problem</span>
+          Job seekers lack visibility into real market trends. Built a system that scrapes job listings,
+          extracts NLP-powered insights, and surfaces what skills are actually in demand.
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Python</span>
+          <span class="card-tag">NLP</span>
+          <span class="card-tag">Web Scraping</span>
+          <span class="card-tag">Data Analysis</span>
+        </div>
+      </div>
+
+      <!-- Email Assistant -->
+      <div class="project-card reveal" data-cat="ai" data-delay="0">
+        <div class="card-top">
+          <div class="card-icon">✉️</div>
+          <a class="card-link" href="https://github.com/javairia772/Email_Assistant" target="_blank">GitHub ↗</a>
+        </div>
+        <div class="card-cat">ai & ml · automation</div>
+        <div class="card-name">Email Assistant</div>
+        <div class="card-problem">
+          <span class="label">problem</span>
+          Writing and managing emails is repetitive and time-consuming. Built an AI-powered assistant
+          that drafts, summarizes, and manages email workflows — reducing cognitive load.
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Python</span>
+          <span class="card-tag">AI</span>
+          <span class="card-tag">Automation</span>
+          <span class="card-tag">NLP</span>
+        </div>
+      </div>
+
+      <!-- Trek VCS -->
+      <div class="project-card reveal" data-cat="tools" data-delay="80">
+        <div class="card-top">
+          <div class="card-icon">🗂️</div>
+          <a class="card-link" href="https://github.com/javairia772/trek-version-control" target="_blank">GitHub ↗</a>
+        </div>
+        <div class="card-cat">dev tools · systems</div>
+        <div class="card-name">Trek — Version Control System</div>
+        <div class="card-problem">
+          <span class="label">problem</span>
+          Understanding how Git works internally. Built a custom VCS from scratch in Python —
+          implementing commits, branching, diff tracking, and history. A deep systems exercise.
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Python</span>
+          <span class="card-tag">Systems</span>
+          <span class="card-tag">CLI</span>
+          <span class="card-tag">File I/O</span>
+        </div>
+      </div>
+
+      <!-- KATS Fintech -->
+      <div class="project-card reveal" data-cat="web" data-delay="0">
+        <div class="card-top">
+          <div class="card-icon">💼</div>
+          <a class="card-link" href="https://katsfintech.com" target="_blank">Live ↗</a>
+        </div>
+        <div class="card-cat">web · client work · live</div>
+        <div class="card-name">KATS Fintech</div>
+        <div class="card-problem">
+          <span class="label">problem</span>
+          A chartered accountancy firm serving Pakistan &amp; UAE needed a professional web presence.
+          Built and deployed a full production website — real client, real traffic, still live.
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">WordPress</span>
+          <span class="card-tag">Web Design</span>
+          <span class="card-tag">Client Work</span>
+          <span class="card-tag">Production</span>
+        </div>
+      </div>
+
+      <!-- Solitaire Classic -->
+      <div class="project-card reveal" data-cat="tools" data-delay="80">
+        <div class="card-top">
+          <div class="card-icon">🃏</div>
+          <a class="card-link" href="https://github.com/javairia772/solitaire-classic" target="_blank">GitHub ↗</a>
+        </div>
+        <div class="card-cat">dev tools · game</div>
+        <div class="card-name">Solitaire Classic</div>
+        <div class="card-problem">
+          <span class="label">problem</span>
+          A practical exercise in game logic and state management. Implemented Klondike Solitaire
+          in Python with full game rules, UI, drag interaction, and win/score tracking.
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Python</span>
+          <span class="card-tag">Game Logic</span>
+          <span class="card-tag">State Management</span>
+          <span class="card-tag">UI</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════
+     CERTIFICATIONS
+══════════════════════════════════════ -->
+<section id="certifications">
+  <div class="section">
+    <div class="section-header">
+      <p class="section-label reveal">certifications</p>
+      <h2 class="section-title reveal" data-delay="60">Credentials &amp; <span class="serif">achievements</span></h2>
+      <p class="section-sub reveal" data-delay="120">
+        Click any card to verify the credential.
+      </p>
+    </div>
+
+    <div class="certs-grid reveal" data-delay="160">
+
+      <a href="https://www.hackerrank.com/certificates/39009ff62ac6" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/sql_advanced certificate_page-0001.jpg" alt="SQL Advanced Certificate">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">SQL — Advanced</div>
+          <div class="cert-issuer">HackerRank · Verified</div>
+        </div>
+      </a>
+
+      <a href="https://www.hackerrank.com/certificates/242c4bb2d2a6" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/problem_solving_basic certificate_page-0001.jpg" alt="Problem Solving Certificate">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Problem Solving — Basic</div>
+          <div class="cert-issuer">HackerRank · Verified</div>
+        </div>
+      </a>
+
+      <a href="https://www.hackerrank.com/certificates/755564f3dd4d" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/python_basic certificate_page-0001.jpg" alt="Python Certificate">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Python — Basic</div>
+          <div class="cert-issuer">HackerRank · Verified</div>
+        </div>
+      </a>
+
+      <a href="https://credsverse.com/credentials/00cb3ce1-c8e1-47bf-a67b-75d12014e0d0" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/generative-ai.jpg" alt="Generative AI Certificate">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Generative AI Application Developer</div>
+          <div class="cert-issuer">ULEFUSA · Top Performer</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/e6e47497-4dce-4419-8677-54ba43880ec5/public_url" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/KickoffAgileBadge.png" alt="PMI Agile Badge">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">PMI Agile</div>
+          <div class="cert-issuer">PMI Kickoff</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/17683adc-96e2-4bed-9342-01a9b480341d/public_url" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/fundamentals-of-predictive-project-management.png" alt="PMI Predictive Badge">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">PMI Predictive</div>
+          <div class="cert-issuer">PMI Kickoff</div>
+        </div>
+      </a>
+
+      <a href="https://calico.cs.berkeley.edu/certificates?contest=sp26&id=4600" target="_blank" class="cert-card">
+        <div class="cert-badge">
+          <img src="assets/certs/calico'26.png" alt="CALICO Certificate">
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">CALICO Spring 2026 Participant</div>
+          <div class="cert-issuer">UC Berkeley · Competitive Programming</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ══════════════════════════════════════
+     CONTACT
+══════════════════════════════════════ -->
+<section id="contact">
+  <div class="section">
+    <div class="contact-layout">
+
+      <div class="reveal">
+        <div class="contact-available">available_for_work</div>
+        <h2 class="contact-headline">
+          Got a project?<br>
+          Let's <span style="font-family:'Lora',serif;font-style:italic;font-weight:400">build it.</span>
+        </h2>
+        <p class="contact-note">
+          Open to internships, collaborations, and freelance projects.
+          I typically reply within 24 hours.
+        </p>
+      </div>
+
+      <div class="socials reveal" data-delay="100">
+        <!-- UPDATE: Replace with your real email -->
+        <a class="social-row" href="mailto:javariasaleem39@gmail.com">
+          <div class="social-left">
+            <div class="social-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/>
+              </svg>
+            </div>
+            <div>
+              <div class="social-name">Email</div>
+              <!-- UPDATE -->
+              <div class="social-handle">javariasaleem39@gmail.com</div>
+            </div>
+          </div>
+          <span class="social-arrow">↗</span>
+        </a>
+
+        <a class="social-row" href="https://github.com/javairia772" target="_blank">
+          <div class="social-left">
+            <div class="social-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+            </div>
+            <div>
+              <div class="social-name">GitHub</div>
+              <div class="social-handle">javairia772</div>
+            </div>
+          </div>
+          <span class="social-arrow">↗</span>
+        </a>
+
+        <!-- UPDATE: Replace with your real LinkedIn -->
+        <a class="social-row" href="https://www.linkedin.com/in/javaria-saleem-22a591294/" target="_blank">
+          <div class="social-left">
+            <div class="social-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <div>
+              <div class="social-name">LinkedIn</div>
+              <!-- UPDATE -->
+              <div class="social-handle">Javaria Saleem</div>
+            </div>
+          </div>
+          <span class="social-arrow">↗</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <span class="footer-left">© 2026 Javaria Saleem</span>
+  <span class="footer-right">AI Engineer & Full Stack Developer</span>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
